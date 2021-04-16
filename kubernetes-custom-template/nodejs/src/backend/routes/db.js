@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-const SAMPLE_DB_ADDR = process.env.SAMPLE_DB_ADDR; 
-const mongoURI = "mongodb://" + SAMPLE_DB_ADDR + "/sample"
+const TEMPLATE_DB_ADDR = process.env.TEMPLATE_DB_ADDR; 
+const mongoURI = "mongodb://" + TEMPLATE_DB_ADDR + "/template"
 
 const db = mongoose.connection;
 db.on('disconnected', () => {
