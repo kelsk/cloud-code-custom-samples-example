@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, different change upstream!")
+	fmt.Println("Hello, change upstream!")
 }
